@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2925A8BB277AE23B0087952B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2925A8BA277AE23B0087952B /* AppDelegate.swift */; };
+		2925A8BD277AE23B0087952B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2925A8BC277AE23B0087952B /* SceneDelegate.swift */; };
+		2925A8BF277AE23B0087952B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2925A8BE277AE23B0087952B /* ViewController.swift */; };
+		2925A8C2277AE23B0087952B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2925A8C0277AE23B0087952B /* Main.storyboard */; };
+		2925A8C4277AE2400087952B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2925A8C3277AE2400087952B /* Assets.xcassets */; };
+		2925A8C7277AE2400087952B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2925A8C5277AE2400087952B /* LaunchScreen.storyboard */; };
+		2925A8D0277B02F10087952B /* UIView+IBDesignables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2925A8CF277B02F10087952B /* UIView+IBDesignables.swift */; };
+		2925A8D6277B3E4B0087952B /* SwiftyGif in Frameworks */ = {isa = PBXBuildFile; productRef = 2925A8D5277B3E4B0087952B /* SwiftyGif */; };
+		2925A8DA277B42610087952B /* VerificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2925A8D9277B42600087952B /* VerificationViewController.swift */; };
+		2925A8DC277B46890087952B /* Line.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2925A8DB277B46890087952B /* Line.gif */; };
+		292DC62B277D987E00CA3C50 /* StoreListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292DC62A277D987E00CA3C50 /* StoreListModel.swift */; };
+		292DC631277D996000CA3C50 /* StoreListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292DC630277D996000CA3C50 /* StoreListViewController.swift */; };
+		292DC634277D9EA000CA3C50 /* NetworkLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292DC633277D9EA000CA3C50 /* NetworkLayer.swift */; };
+		293183BF277F5BAF00FA31EA /* success.gif in Resources */ = {isa = PBXBuildFile; fileRef = 293183BE277F5BAF00FA31EA /* success.gif */; };
+		2996DB5E277C37CB007A7756 /* BankSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2996DB5D277C37CB007A7756 /* BankSelectionViewController.swift */; };
+		29D7BF21277F392100A57102 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D7BF20277F392100A57102 /* PaymentViewController.swift */; };
+		29D7BF26277F40B300A57102 /* PaymentSuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D7BF25277F40B300A57102 /* PaymentSuccessViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2925A8D7277B3E4E0087952B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2925A8B7277AE23B0087952B /* GooglePayClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GooglePayClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2925A8BA277AE23B0087952B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2925A8BC277AE23B0087952B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2925A8BE277AE23B0087952B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2925A8C1277AE23B0087952B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2925A8C3277AE2400087952B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2925A8C6277AE2400087952B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2925A8C8277AE2400087952B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2925A8CF277B02F10087952B /* UIView+IBDesignables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+IBDesignables.swift"; sourceTree = "<group>"; };
+		2925A8D9277B42600087952B /* VerificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationViewController.swift; sourceTree = "<group>"; };
+		2925A8DB277B46890087952B /* Line.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Line.gif; sourceTree = "<group>"; };
+		292DC62A277D987E00CA3C50 /* StoreListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreListModel.swift; sourceTree = "<group>"; };
+		292DC630277D996000CA3C50 /* StoreListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreListViewController.swift; sourceTree = "<group>"; };
+		292DC633277D9EA000CA3C50 /* NetworkLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLayer.swift; sourceTree = "<group>"; };
+		293183BE277F5BAF00FA31EA /* success.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = success.gif; sourceTree = "<group>"; };
+		2996DB5D277C37CB007A7756 /* BankSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankSelectionViewController.swift; sourceTree = "<group>"; };
+		29D7BF20277F392100A57102 /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		29D7BF25277F40B300A57102 /* PaymentSuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentSuccessViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2925A8B4277AE23B0087952B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2925A8D6277B3E4B0087952B /* SwiftyGif in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2925A8AE277AE23B0087952B = {
+			isa = PBXGroup;
+			children = (
+				2925A8B9277AE23B0087952B /* GooglePayClone */,
+				2925A8B8277AE23B0087952B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2925A8B8277AE23B0087952B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2925A8B7277AE23B0087952B /* GooglePayClone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2925A8B9277AE23B0087952B /* GooglePayClone */ = {
+			isa = PBXGroup;
+			children = (
+				292DC635277DE00A00CA3C50 /* MVC */,
+				292DC632277D9D6400CA3C50 /* NetWork */,
+				2925A8DB277B46890087952B /* Line.gif */,
+				293183BE277F5BAF00FA31EA /* success.gif */,
+				2925A8CE277B02D00087952B /* ViewAddables */,
+				2925A8BA277AE23B0087952B /* AppDelegate.swift */,
+				2925A8BC277AE23B0087952B /* SceneDelegate.swift */,
+				2925A8BE277AE23B0087952B /* ViewController.swift */,
+				2925A8C0277AE23B0087952B /* Main.storyboard */,
+				2925A8C3277AE2400087952B /* Assets.xcassets */,
+				2925A8C5277AE2400087952B /* LaunchScreen.storyboard */,
+				2925A8C8277AE2400087952B /* Info.plist */,
+			);
+			path = GooglePayClone;
+			sourceTree = "<group>";
+		};
+		2925A8CE277B02D00087952B /* ViewAddables */ = {
+			isa = PBXGroup;
+			children = (
+				2925A8CF277B02F10087952B /* UIView+IBDesignables.swift */,
+			);
+			path = ViewAddables;
+			sourceTree = "<group>";
+		};
+		2925A8D8277B41F70087952B /* Verification */ = {
+			isa = PBXGroup;
+			children = (
+				2925A8D9277B42600087952B /* VerificationViewController.swift */,
+			);
+			path = Verification;
+			sourceTree = "<group>";
+		};
+		292DC629277D948300CA3C50 /* StoreList */ = {
+			isa = PBXGroup;
+			children = (
+				292DC62F277D994200CA3C50 /* SroeListController */,
+				292DC62C277D988E00CA3C50 /* StoreListModel */,
+			);
+			path = StoreList;
+			sourceTree = "<group>";
+		};
+		292DC62C277D988E00CA3C50 /* StoreListModel */ = {
+			isa = PBXGroup;
+			children = (
+				292DC62A277D987E00CA3C50 /* StoreListModel.swift */,
+			);
+			path = StoreListModel;
+			sourceTree = "<group>";
+		};
+		292DC62F277D994200CA3C50 /* SroeListController */ = {
+			isa = PBXGroup;
+			children = (
+				292DC630277D996000CA3C50 /* StoreListViewController.swift */,
+			);
+			path = SroeListController;
+			sourceTree = "<group>";
+		};
+		292DC632277D9D6400CA3C50 /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				292DC633277D9EA000CA3C50 /* NetworkLayer.swift */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		292DC635277DE00A00CA3C50 /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				29D7BF24277F409D00A57102 /* Success */,
+				29D7BF1F277F343400A57102 /* Payment */,
+				292DC629277D948300CA3C50 /* StoreList */,
+				2996DB5C277C340B007A7756 /* Bank List */,
+				2925A8D8277B41F70087952B /* Verification */,
+			);
+			path = MVC;
+			sourceTree = "<group>";
+		};
+		2996DB5C277C340B007A7756 /* Bank List */ = {
+			isa = PBXGroup;
+			children = (
+				2996DB5D277C37CB007A7756 /* BankSelectionViewController.swift */,
+			);
+			path = "Bank List";
+			sourceTree = "<group>";
+		};
+		29D7BF1F277F343400A57102 /* Payment */ = {
+			isa = PBXGroup;
+			children = (
+				29D7BF20277F392100A57102 /* PaymentViewController.swift */,
+			);
+			path = Payment;
+			sourceTree = "<group>";
+		};
+		29D7BF24277F409D00A57102 /* Success */ = {
+			isa = PBXGroup;
+			children = (
+				29D7BF25277F40B300A57102 /* PaymentSuccessViewController.swift */,
+			);
+			path = Success;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2925A8B6277AE23B0087952B /* GooglePayClone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2925A8CB277AE2400087952B /* Build configuration list for PBXNativeTarget "GooglePayClone" */;
+			buildPhases = (
+				2925A8B3277AE23B0087952B /* Sources */,
+				2925A8B4277AE23B0087952B /* Frameworks */,
+				2925A8B5277AE23B0087952B /* Resources */,
+				2925A8D7277B3E4E0087952B /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GooglePayClone;
+			packageProductDependencies = (
+				2925A8D5277B3E4B0087952B /* SwiftyGif */,
+			);
+			productName = GooglePayClone;
+			productReference = 2925A8B7277AE23B0087952B /* GooglePayClone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2925A8AF277AE23B0087952B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					2925A8B6277AE23B0087952B = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 2925A8B2277AE23B0087952B /* Build configuration list for PBXProject "GooglePayClone" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2925A8AE277AE23B0087952B;
+			packageReferences = (
+				2925A8D1277B3E4B0087952B /* XCRemoteSwiftPackageReference "SwiftyGif" */,
+			);
+			productRefGroup = 2925A8B8277AE23B0087952B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2925A8B6277AE23B0087952B /* GooglePayClone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2925A8B5277AE23B0087952B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2925A8DC277B46890087952B /* Line.gif in Resources */,
+				2925A8C7277AE2400087952B /* LaunchScreen.storyboard in Resources */,
+				2925A8C4277AE2400087952B /* Assets.xcassets in Resources */,
+				2925A8C2277AE23B0087952B /* Main.storyboard in Resources */,
+				293183BF277F5BAF00FA31EA /* success.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2925A8B3277AE23B0087952B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				292DC634277D9EA000CA3C50 /* NetworkLayer.swift in Sources */,
+				292DC631277D996000CA3C50 /* StoreListViewController.swift in Sources */,
+				292DC62B277D987E00CA3C50 /* StoreListModel.swift in Sources */,
+				2925A8BF277AE23B0087952B /* ViewController.swift in Sources */,
+				2925A8D0277B02F10087952B /* UIView+IBDesignables.swift in Sources */,
+				2925A8DA277B42610087952B /* VerificationViewController.swift in Sources */,
+				2996DB5E277C37CB007A7756 /* BankSelectionViewController.swift in Sources */,
+				29D7BF21277F392100A57102 /* PaymentViewController.swift in Sources */,
+				2925A8BB277AE23B0087952B /* AppDelegate.swift in Sources */,
+				2925A8BD277AE23B0087952B /* SceneDelegate.swift in Sources */,
+				29D7BF26277F40B300A57102 /* PaymentSuccessViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2925A8C0277AE23B0087952B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2925A8C1277AE23B0087952B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2925A8C5277AE2400087952B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2925A8C6277AE2400087952B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2925A8C9277AE2400087952B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2925A8CA277AE2400087952B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2925A8CC277AE2400087952B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 469RK4A4GN;
+				INFOPLIST_FILE = GooglePayClone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = v.apple.app.GooglePayClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2925A8CD277AE2400087952B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 469RK4A4GN;
+				INFOPLIST_FILE = GooglePayClone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = v.apple.app.GooglePayClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2925A8B2277AE23B0087952B /* Build configuration list for PBXProject "GooglePayClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2925A8C9277AE2400087952B /* Debug */,
+				2925A8CA277AE2400087952B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2925A8CB277AE2400087952B /* Build configuration list for PBXNativeTarget "GooglePayClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2925A8CC277AE2400087952B /* Debug */,
+				2925A8CD277AE2400087952B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2925A8D1277B3E4B0087952B /* XCRemoteSwiftPackageReference "SwiftyGif" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kirualex/SwiftyGif.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2925A8D5277B3E4B0087952B /* SwiftyGif */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2925A8D1277B3E4B0087952B /* XCRemoteSwiftPackageReference "SwiftyGif" */;
+			productName = SwiftyGif;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2925A8AF277AE23B0087952B /* Project object */;
+}
